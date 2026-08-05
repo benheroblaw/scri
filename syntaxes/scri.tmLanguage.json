@@ -5,10 +5,6 @@
 		{
 			"match": "#.*",
 			"name": "comment.line.number-sign"
-		},
-		{
-			"match": "//.*",
-			"name": "comment.line.double-slash"
 		}
 	],
 	"scopeName": "source.scri"
