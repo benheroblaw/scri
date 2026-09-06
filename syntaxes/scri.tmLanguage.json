@@ -9,7 +9,84 @@
 		{
 			"match": "//.*",
 			"name": "comment.line.double-slash"
-		}
+		},
+		{
+			"match": "/*.*.*/",
+			"name": "comment.block"
+		},
+		{
+			"match": "LBLU>",
+			"name": "keyword"
+		},
+		{
+			"match": "LGRN>",
+			"name": "keyword"
+		},
+		{
+			"match": "PUR>",
+			"name": "keyword"
+		},
+		{
+			"match": "GRN>",
+			"name": "keyword"
+		},
+		{
+			"match": "PNK>",
+			"name": "keyword"
+		},
+		{
+			"match": "RED>",
+			"name": "keyword"
+		},
+		{
+			"match": "BLU>",
+			"name": "keyword"
+		},
+		{
+			"match": "YLW>",
+			"name": "keyword"
+		},
+		{
+			"match": "LME>",
+			"name": "keyword"
+		},
+		{
+			"match": "LGRY>",
+			"name": "keyword"
+		},
+		{
+			"match": "GRY>",
+			"name": "keyword"
+		},
+		{
+			"match": "DGRY>",
+			"name": "keyword"
+		},
+		{
+			"match": "NOBR>",
+			"name": "keyword"
+		},
+		{
+			"match": "SPD<.*.>",
+			"name": "keyword"
+		},
+		{
+			"match": "PORT<.*.>",
+			"name": "keyword"
+		},
+		{
+			"match": "CLRA>",
+			"name": "keyword"
+		},
+		{
+			"match": "CLRB>",
+			"name": "keyword"
+		},
+		{
+			"match": "CONT>",
+			"name": "keyword"
+		},
+		{}
 	],
 	"scopeName": "source.scri"
 }
