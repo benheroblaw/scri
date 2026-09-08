@@ -3,16 +3,12 @@
 	"name": "scri",
 	"patterns": [
 		{
-			"match": "#.*",
-			"name": "comment.line.number-sign"
-		},
-		{
-			"match": "//.*",
-			"name": "comment.line.double-slash"
-		},
-		{
-			"match": "/*.*.*/",
+			"match": "CMT<.*.>",
 			"name": "comment.block"
+		},
+		{
+			"match": "RES>",
+			"name": "keyword"
 		},
 		{
 			"match": "LBLU>",
@@ -59,6 +55,10 @@
 			"name": "keyword"
 		},
 		{
+			"match": "WHI>",
+			"name": "keyword"
+		},
+		{
 			"match": "DGRY>",
 			"name": "keyword"
 		},
@@ -67,11 +67,27 @@
 			"name": "keyword"
 		},
 		{
+			"match": "SPD<>",
+			"name": "keyword"
+		},
+		{
+			"match": "PORT<>",
+			"name": "keyword"
+		},
+		{
+			"match": "ITAL<>",
+			"name": "keyword"
+		},
+		{
 			"match": "SPD<.*.>",
 			"name": "keyword"
 		},
 		{
 			"match": "PORT<.*.>",
+			"name": "keyword"
+		},
+		{
+			"match": "ITAL<.*.>",
 			"name": "keyword"
 		},
 		{
@@ -84,6 +100,14 @@
 		},
 		{
 			"match": "CONT>",
+			"name": "keyword"
+		},
+		{
+			"match": "BLD>",
+			"name": "keyword"
+		},
+		{
+			"match": "ESC>",
 			"name": "keyword"
 		},
 		{}
