@@ -4,7 +4,7 @@
 	"patterns": [
 		{
 			"match": "CMT<.*.>",
-			"name": "comment.block"
+			"name": "comment.line"
 		},
 		{
 			"match": "RES>",
@@ -67,6 +67,30 @@
 			"name": "keyword"
 		},
 		{
+			"match": "CLRA>",
+			"name": "keyword"
+		},
+		{
+			"match": "CLRB>",
+			"name": "keyword"
+		},
+		{
+			"match": "CONT>",
+			"name": "keyword"
+		},
+		{
+			"match": "ESC>",
+			"name": "keyword"
+		},
+		{
+			"match": "BLD>",
+			"name": "keyword"
+		},
+		{
+			"match": "ITAL>",
+			"name": "keyword"
+		},
+		{
 			"match": "SPD<>",
 			"name": "keyword"
 		},
@@ -76,6 +100,10 @@
 		},
 		{
 			"match": "ITAL<>",
+			"name": "keyword"
+		},
+		{
+			"match": "BLD<>",
 			"name": "keyword"
 		},
 		{
@@ -91,23 +119,7 @@
 			"name": "keyword"
 		},
 		{
-			"match": "CLRA>",
-			"name": "keyword"
-		},
-		{
-			"match": "CLRB>",
-			"name": "keyword"
-		},
-		{
-			"match": "CONT>",
-			"name": "keyword"
-		},
-		{
-			"match": "BLD>",
-			"name": "keyword"
-		},
-		{
-			"match": "ESC>",
+			"match": "BLD<.*.>",
 			"name": "keyword"
 		},
 		{}

@@ -4,6 +4,10 @@
 		// 	"comment": "#",
 		// 	"noIndent": true
 		// },
+    // "lineComment": {
+    //   "comment": "CMT<",
+    //   "noIndent": false
+    // }
     "blockComment": ["CMT<", ">"]
   },
 	// "comment": {
