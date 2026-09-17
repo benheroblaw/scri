@@ -2,7 +2,7 @@
   "name": "benheroblaw.scri",
   "displayName": ".scri support",
   "description": "Script files for benheroblaw's text viewer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -10,16 +10,32 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "scri",
-      "aliases": [".scri", "scri"],
-      "extensions": [".scri"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "scri",
-      "scopeName": "source.scri",
-      "path": "./syntaxes/scri.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "scri",
+        "aliases": [".scri", "scri"],
+        "extensions": [".scri"],
+        "configuration": "./scri/language-configuration.json"
+      },
+      {
+        "id": "folders",
+        "aliases": [".folders", "folders"],
+        "extensions": [".folders"],
+        "configuration": "./folders/language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "scri",
+        "scopeName": "source.scri",
+        "path": "./syntaxes/scri.tmLanguage.json"
+      },
+      {
+        "language": "folders",
+        "scopeName": "source.folders",
+        "path": "./syntaxes/folders.tmLanguage.json"
+      },
+      {}
+    ]
   }
 }
