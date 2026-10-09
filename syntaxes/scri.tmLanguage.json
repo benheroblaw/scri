@@ -8,35 +8,35 @@
 		},
 		{
 			"match": "RES>",
-			"name": "keyword"
+			"name": "keyword.reset"
 		},
 		{
 			"match": "LBLU>",
-			"name": "keyword"
+			"name": "keyword.lightblue"
 		},
 		{
 			"match": "LGRN>",
-			"name": "keyword"
+			"name": "keyword.lightgreen"
 		},
 		{
 			"match": "PUR>",
-			"name": "keyword"
+			"name": "keyword.purple"
 		},
 		{
 			"match": "GRN>",
-			"name": "keyword"
+			"name": "keyword.green"
 		},
 		{
 			"match": "PNK>",
-			"name": "keyword"
+			"name": "keyword.pink"
 		},
 		{
 			"match": "RED>",
-			"name": "keyword"
+			"name": "keyword.red"
 		},
 		{
 			"match": "BLU>",
-			"name": "keyword"
+			"name": "keyword.blue"
 		},
 		{
 			"match": "YLW>",
@@ -63,6 +63,22 @@
 			"name": "keyword"
 		},
 		{
+			"match": "CYN>",
+			"name": "keyword"
+		},
+		{
+			"match": "BLK>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGWHI>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGRED>",
+			"name": "keyword"
+		},
+		{
 			"match": "NOBR>",
 			"name": "keyword"
 		},
@@ -76,6 +92,10 @@
 		},
 		{
 			"match": "CONT>",
+			"name": "keyword"
+		},
+		{
+			"match": "DEF>",
 			"name": "keyword"
 		},
 		{
@@ -116,13 +136,18 @@
 		},
 		{
 			"match": "ITAL<.*.>",
-			"name": "keyword"
+			"name": "keyword.scri.ital"
 		},
 		{
 			"match": "BLD<.*.>",
-			"name": "keyword"
+			"name": "keyword.bld"
 		},
 		{}
 	],
-	"scopeName": "source.scri"
+	"scopeName": "source.scri",
+
+	"scope": "scri.keyword.ital",
+	"settings": {
+		"fontStyle": "italic"
+	}
 }
