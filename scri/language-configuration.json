@@ -4,11 +4,11 @@
 		// 	"comment": "#",
 		// 	"noIndent": true
 		// },
-    // "lineComment": {
-    //   "comment": "CMT<",
-    //   "noIndent": false
-    // }
-    "blockComment": ["CMT<", ">"]
+    "blockComment": ["CMT<", ">"],
+    "lineComment": {
+      "comment": "CMT>",
+      "noIndent": false
+    },
   },
 	// "comment": {
 	// 	""

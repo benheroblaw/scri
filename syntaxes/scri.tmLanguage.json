@@ -4,6 +4,10 @@
 	"patterns": [
 		{
 			"match": "CMT<.*.>",
+			"name": "comment.block"
+		},
+		{
+			"match": "CMT>.*",
 			"name": "comment.line"
 		},
 		{
