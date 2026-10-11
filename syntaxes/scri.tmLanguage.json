@@ -111,46 +111,46 @@
 			"name": "keyword"
 		},
 		{
+			"match": "BOLD>",
+			"name": "keyword"
+		},
+		{
 			"match": "ITAL>",
 			"name": "keyword"
 		},
 		{
-			"match": "SPD<>",
+			"match": "NMPLT",
 			"name": "keyword"
 		},
 		{
-			"match": "PORT<>",
+			"match": "SPD",
 			"name": "keyword"
 		},
 		{
-			"match": "ITAL<>",
+			"match": "PORT",
 			"name": "keyword"
 		},
 		{
-			"match": "BLD<>",
+			"match": "INDNT",
 			"name": "keyword"
 		},
 		{
-			"match": "SPD<.*.>",
-			"name": "keyword"
-		},
-		{
-			"match": "PORT<.*.>",
-			"name": "keyword"
-		},
-		{
-			"match": "ITAL<.*.>",
+			"match": "ITAL",
 			"name": "keyword.scri.ital"
 		},
 		{
-			"match": "BLD<.*.>",
+			"match": "BLD",
 			"name": "keyword.bld"
+		},
+		{
+			"match": "BOLD",
+			"name": "keyword.bold"
 		},
 		{}
 	],
 	"scopeName": "source.scri",
 
-	"scope": "scri.keyword.ital",
+	"scope": "source.scri.keyword.ital",
 	"settings": {
 		"fontStyle": "italic"
 	}
