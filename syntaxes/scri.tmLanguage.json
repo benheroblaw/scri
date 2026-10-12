@@ -127,7 +127,7 @@
 			"name": "keyword"
 		},
 		{
-			"match": "PORT",
+			"match": "PORT(",
 			"name": "keyword"
 		},
 		{
@@ -145,6 +145,10 @@
 		{
 			"match": "BOLD",
 			"name": "keyword.bold"
+		},
+		{
+			"match": "IMPORT>",
+			"name": "keyword"
 		},
 		{}
 	],
