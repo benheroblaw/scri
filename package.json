@@ -34,8 +34,7 @@
         "language": "folders",
         "scopeName": "source.folders",
         "path": "./syntaxes/folders.tmLanguage.json"
-      },
-      {}
+      }
     ]
   }
 }
