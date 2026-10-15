@@ -14,7 +14,7 @@
       {
         "id": "scri",
         "aliases": [".scri", "scri"],
-        "extensions": [".scri", ".defs"],
+        "extensions": [".scri", ".defs", ".def"],
         "configuration": "./scri/language-configuration.json"
       },
       {
