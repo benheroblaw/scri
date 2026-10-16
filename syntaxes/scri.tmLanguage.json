@@ -12,35 +12,35 @@
 		},
 		{
 			"match": "RES>",
-			"name": "keyword.reset"
+			"name": "keyword"
 		},
 		{
 			"match": "LBLU>",
-			"name": "keyword.lightblue"
+			"name": "keyword"
 		},
 		{
 			"match": "LGRN>",
-			"name": "keyword.lightgreen"
+			"name": "keyword"
 		},
 		{
 			"match": "PUR>",
-			"name": "keyword.purple"
+			"name": "keyword"
 		},
 		{
 			"match": "GRN>",
-			"name": "keyword.green"
+			"name": "keyword"
 		},
 		{
 			"match": "PNK>",
-			"name": "keyword.pink"
+			"name": "keyword"
 		},
 		{
 			"match": "RED>",
-			"name": "keyword.red"
+			"name": "keyword"
 		},
 		{
 			"match": "BLU>",
-			"name": "keyword.blue"
+			"name": "keyword"
 		},
 		{
 			"match": "YLW>",
@@ -127,7 +127,7 @@
 			"name": "keyword"
 		},
 		{
-			"match": "PORT(",
+			"match": "PORT",
 			"name": "keyword"
 		},
 		{
@@ -136,26 +136,21 @@
 		},
 		{
 			"match": "ITAL",
-			"name": "keyword.scri.ital"
+			"name": "keyword"
 		},
 		{
 			"match": "BLD",
-			"name": "keyword.bld"
+			"name": "keyword"
 		},
 		{
 			"match": "BOLD",
-			"name": "keyword.bold"
+			"name": "keyword"
 		},
 		{
-			"match": "IMPORT>",
+			"match": "IMPORT",
 			"name": "keyword"
 		},
 		{}
 	],
-	"scopeName": "source.scri",
-
-	"scope": "source.scri.keyword.ital",
-	"settings": {
-		"fontStyle": "italic"
-	}
+	"scopeName": "source.scri"
 }
