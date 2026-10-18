@@ -75,11 +75,55 @@
 			"name": "keyword"
 		},
 		{
+			"match": "ORN>",
+			"name": "keyword"
+		},
+		{
 			"match": "BGWHI>",
 			"name": "keyword"
 		},
 		{
 			"match": "BGRED>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGBLU>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGGRN>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGYLW>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGPNK>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGCYN>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGPUR>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGLME>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGGRY>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGBLK>",
+			"name": "keyword"
+		},
+		{
+			"match": "BGORN>",
 			"name": "keyword"
 		},
 		{

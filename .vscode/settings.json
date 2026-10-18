@@ -6,6 +6,18 @@
         "CLRB",
         "lightgreen",
         "NMPLT",
-        "scri"
+        "scri",
+        "BGBLK",
+        "BGBLU",
+        "BGCYN",
+        "BGGRN",
+        "BGGRY",
+        "BGLME",
+        "BGPNK",
+        "BGPUR",
+        "BGRED",
+        "BGWHI",
+        "BGYLW",
+        "BWHI",
     ]
 }
