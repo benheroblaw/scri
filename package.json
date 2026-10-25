@@ -35,6 +35,12 @@
         "scopeName": "source.folders",
         "path": "./syntaxes/folders.tmLanguage.json"
       }
+    ],
+    "snippets": [
+      {
+        "language": "scri",
+        "path": "./scri/snippets.json"
+      }
     ]
   }
 }

@@ -3,7 +3,7 @@
 	"name": "scri",
 	"patterns": [
 		{
-			"match": "CMT<.*.>",
+			"match": "CMT<.*>",
 			"name": "comment.block"
 		},
 		{
@@ -11,188 +11,196 @@
 			"name": "comment.line"
 		},
 		{
-			"match": "RES>",
-			"name": "keyword"
+			"match": "[RES|LBLU|LGRN|PUR|BR|BREAK|GRN|PNK|RED|BLU|YLW|LME]>",
+			"name": "keyword.other"
 		},
 		{
 			"match": "LBLU>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "LGRN>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "PUR>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "GRN>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "PNK>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "RED>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BLU>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "YLW>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "LME>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "LGRY>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "GRY>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "WHI>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "DGRY>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "CYN>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BLK>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "ORN>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGWHI>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGRED>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGBLU>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGGRN>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGYLW>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGPNK>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGCYN>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGPUR>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGLME>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGGRY>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGBLK>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "BGORN>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "NOBR>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "CLRA>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "CLRB>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "CONT>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
 			"match": "DEF>",
-			"name": "keyword"
+			"name": "keyword.other"
+		},
+		{
+			"match": "DEF> \\b\\w\\S*\\w,",
+			"name": "string"
 		},
 		{
 			"match": "ESC>",
-			"name": "keyword"
+			"name": "keyword.other"
 		},
 		{
-			"match": "BLD>",
-			"name": "keyword"
+			"match": "NMPLT\\(",
+			"name": "keyword.other"
 		},
 		{
-			"match": "BOLD>",
-			"name": "keyword"
+			"match": "NMPLT\\(.*\\)",
+			"name": "string"
 		},
 		{
-			"match": "ITAL>",
-			"name": "keyword"
+			"match": "SPD\\(",
+			"name": "keyword.other"
 		},
 		{
-			"match": "NMPLT",
-			"name": "keyword"
+			"match": "PORT\\(",
+			"name": "keyword.other"
 		},
 		{
-			"match": "SPD",
-			"name": "keyword"
+			"match": "INDNT\\(",
+			"name": "keyword.other"
 		},
 		{
-			"match": "PORT",
-			"name": "keyword"
+			"match": "ITAL[>|(]",
+			"name": "keyword.other"
 		},
 		{
-			"match": "INDNT",
-			"name": "keyword"
+			"match": "BLD[>|(]",
+			"name": "keyword.other"
 		},
 		{
-			"match": "ITAL",
-			"name": "keyword"
+			"match": "BOLD[>|(]",
+			"name": "keyword.other"
 		},
 		{
-			"match": "BLD",
-			"name": "keyword"
+			"match": "IMPORT>",
+			"name": "keyword.other"
 		},
 		{
-			"match": "BOLD",
-			"name": "keyword"
+			"match": "([\\+\\-])?(\\d+\\.?\\d*|\\.\\d+)([eE][\\-\\+]?\\d+)?",
+			"name": "constant.numeric"
 		},
 		{
-			"match": "IMPORT",
-			"name": "keyword"
+			"match": "\\S*\\b:",
+			"name": "variable.name"
+		},
+		{
+			"match": "\\b\\w\\S*\\w>",
+			"name": "variable.name"
 		},
 		{}
 	],

@@ -1,0 +1,18 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+    "Italics": {
+        "prefix": "ITAL",
+        "body": [
+            "ITAL($1)",
+            "$2"
+        ],
+        "description": "Display section as italics"
+    }
+}
